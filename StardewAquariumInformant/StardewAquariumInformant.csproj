@@ -2,9 +2,15 @@
 
     <PropertyGroup>
         <RootNamespace>Moonwolf.StardewAquariumInformant</RootNamespace>
+        
         <AssemblyName>StardewAquariumInformant</AssemblyName>
-
+        <Version>1.0.0</Version>
         <Authors>Moonwolf</Authors>
+        <Description>Additional decorator for Informant mod. Marks Fish that have not yet been donated to the Stardew Aquarium.</Description>
+        <UniqueId>Moonwolf.StardewAquariumInformant</UniqueId>
+        <MinimumApiVersion>3.16.1</MinimumApiVersion>
+        <UpdateKeys>Github:Moonwolf287/stardew-aquarium-informant-addon</UpdateKeys>
+        
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/Moonwolf287/stardew-aquarium-informant-addon</RepositoryUrl>
         <PackageProjectUrl>https://github.com/Moonwolf287/stardew-aquarium-informant-addon/blob/main/README.md</PackageProjectUrl>
@@ -17,6 +23,7 @@
     </PropertyGroup>
     
     <ItemGroup>
+        <PackageReference Include="Leclair.Stardew.ModManifestBuilder" Version="2.1.0" />
         <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.0" />
     </ItemGroup>
 </Project>
